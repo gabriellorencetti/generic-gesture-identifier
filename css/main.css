@@ -1,0 +1,108 @@
+/* CSS Gesture4ALL */
+
+html{
+    margin: 10px;
+    padding: 0;
+    border: 3;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    color: #181818;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 100%;
+    font-weight: 300;
+    line-height: 1.75;
+    background: #ffffff;
+}
+
+#header .logo {
+      display: block;
+      border-bottom: 0;
+      color: inherit;
+      font-weight: 600;
+      letter-spacing: 0.20em;
+      margin: 0 0 0 0;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+}
+
+#header .logo > * {
+        display: inline-block;
+        vertical-align: middle;
+}
+
+#header .logo .symbol {
+        margin-right: 0.65em;
+}
+
+#header .logo .symbol img {
+          display: block;
+          width: 2.5em;
+          height: 2.5em;
+}
+video {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      height: auto;
+      pointer-events: none;
+      width: 960px;
+}
+
+@media (max-width: 1080px) {
+      video {
+            width: 90%;
+      }
+}
+
+.controls {
+      display: flex;
+      justify-content: center;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+main {
+      background-color: #9EA3B0;
+      padding: 3em;
+      margin: 1em auto;
+      text-align: center;
+      border-radius: 1em;
+      max-width: 1000px;
+}
+
+.link {
+      color: #BEBEBE;
+      font-size: 1.5em;
+      background-color: #181818;
+      border-radius: 0.4em;
+      padding: 0.5em 0.8em;
+      text-decoration: none;
+      display: block;
+      margin: 1.5em 1em 0 1em;
+}
+
+.link:hover{
+      background-color: #282828;
+}
+
+.button {
+      background-color: #9EA3B0;
+      border: none;
+      border-radius: 0.5em;
+      color: white;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 0 2px;
+      cursor: pointer;      
+}
+
+.button:hover {
+      background-color: #898d9a;
+}
