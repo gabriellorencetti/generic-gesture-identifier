@@ -105,7 +105,7 @@ function configuracao() {
     setCookie(aux, t, 365);
     aux++;
     if (aux < 6) {
-      alert("Gesto configurado com scesso. Pressione OK (ou ENTER) para prosseguir.")
+      alert("Gesto configurado com sucesso. Pressione OK (ou ENTER) para prosseguir.")
       alert("Selecione o botão referente ao gesto de " + mensagemConfig[aux]);
     }
 
